@@ -227,7 +227,30 @@ private extension Formatter {
             return text.withColor(color)
         }
         
-        return text
+        // Append
+        
+        var appendEmoji = ""
+        
+        switch level
+        {
+        case .debug:
+            appendEmoji = "💛"
+            
+        case .error:
+            appendEmoji = "💔"
+
+        case .info:
+            appendEmoji = "💚"
+
+        case .trace:
+            appendEmoji = "💙"
+
+        case .warning:
+            appendEmoji = "🧡"
+
+        }
+        
+        return appendEmoji+" "+text
     }
     
     /**
