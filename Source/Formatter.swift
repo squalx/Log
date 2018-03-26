@@ -234,7 +234,7 @@ private extension Formatter {
         switch level
         {
         case .debug:
-            appendEmoji = "💛"
+            appendEmoji = "💙"
             
         case .error:
             appendEmoji = "💔"
@@ -243,7 +243,7 @@ private extension Formatter {
             appendEmoji = "💚"
 
         case .trace:
-            appendEmoji = "💙"
+            appendEmoji = "⚪️"
 
         case .warning:
             appendEmoji = "🧡"
