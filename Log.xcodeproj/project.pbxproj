@@ -45,6 +45,7 @@
 		6DE69DF61CDE815000024624 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE69DF41CDE80E100024624 /* Utilities.swift */; };
 		6DE69DF71CDE815100024624 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE69DF41CDE80E100024624 /* Utilities.swift */; };
 		6DE69DF81CDE815300024624 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE69DF41CDE80E100024624 /* Utilities.swift */; };
+		C7A0006020F7DA4400E95A43 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C7A0005F20F7DA4400E95A43 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		6DE69DF41CDE80E100024624 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		6DFA5CC41C21C72A003990E7 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		6DFA5CC61C21C77F003990E7 /* Formatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		C7A0005F20F7DA4400E95A43 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 		6D06F6C91C189C4B0010110E /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C7A0005F20F7DA4400E95A43 /* LICENSE */,
 				6DFA5CC81C21C79F003990E7 /* Extensions */,
 				6DACCA341C89F697001B63D9 /* Supporting Files */,
 				6D047BF21CD8FC3800B51152 /* Benchmarker.swift */,
@@ -482,6 +485,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A0006020F7DA4400E95A43 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
