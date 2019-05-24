@@ -427,6 +427,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 6D06F6BD1C189C4B0010110E;
@@ -911,7 +912,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.delba.Log;
 				PRODUCT_NAME = Log;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -933,7 +934,7 @@
 				PRODUCT_NAME = Log;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
